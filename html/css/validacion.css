@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(81, 0, 255);
+	font-family: 'Itim', cursive;
+	margin-bottom: 10px;
+	text-align: center;
+}
+/*Estilod principales del formulario*/
+.frm-container{
+
+	max-width: 35rem;
+	width: 100%;
+	margin:30px auto;
+
+}
+.frm-input{
+	width: 100%;
+	min-height: 2.5rem;
+	height: 100%;
+	margin-top: 10px;
+
+}
+.frm-input:focus{
+outline-style: none;
+width: 100%;
+min-height: 2.5rem;
+height: 100%;
+margin-top: 10px;
+
+
+
+}
+
+.frm-checkbox{
+	margin: 10px 0px;
+}
+
+.btn-enviar{
+	background-color: rgb(17, 123, 194);
+	padding: 10px 25px;
+	color: white;
+	font-weight: bold;
+	margin: 10px 0px;
+
+}
+.btn-enviar:hover{
+	background-color: rgb(154, 79, 251);
+	padding: 10px 25px;
+	color: white;
+	font-weight: bold;
+	margin: 10px 0px;
+
+}
+
+/*Estilos del icono error*/
+.frm-group-input{
+	position: relative;
+}
+
+.frm-icono{
+	position: absolute;
+	right: 1rem;
+	bottom: 2.2rem;
+	
+	z-index: 100;
+}
+
+/*Estilos del mensaje de error*/
+.msn-error{
+	
+	font-size:  0.7em;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.msn-error.visible{ 
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s ease;
+	color:rgb(255, 255, 255);
+}
+
+
+.success .frm-icono{
+    color: green;
+}
+
+.error .frm-icono{
+    color: red;
+}
+
+.frm-error{
+	background-color: red;
+	padding: 15px;
+	border-radius: 3px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.frm-error-visible{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1s ease;
+}
+
+
+
