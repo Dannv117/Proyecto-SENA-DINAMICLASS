@@ -3,7 +3,9 @@ Proyecto-SENA Este proyecto abarca la temática de pausas activas mentales para 
 
 Proyecto realizado con fines educativos. 
 
-Autores: Laura Abello
-        Daniel Jaimes
-        Jennifer Bernal
-        Danna Valencia
+Autores: Laura Abello,
+        Daniel Jaimes,
+        Jennifer Bernal,
+        Danna Valencia.
+
+ficha: 2242755
